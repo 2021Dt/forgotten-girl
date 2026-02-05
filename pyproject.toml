@@ -1,0 +1,14 @@
+[project]
+name = "forgotten-girl"
+version = "0.1.0"
+description = "AI dialogue SLG orchestrator MVP"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn>=0.23",
+  "pydantic>=2.6",
+  "pyyaml>=6.0",
+]
+
+[tool.uvicorn]
+app = "app.main:app"

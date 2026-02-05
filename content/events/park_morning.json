@@ -1,0 +1,26 @@
+{
+  "event_id": "park_morning_01",
+  "version": 1,
+  "location": "park",
+  "time_slot": "morning",
+  "tags": ["calm"],
+  "entry_conditions": {},
+  "base_weight": 1.0,
+  "intro": "晨光落在长椅上，她停下脚步看着你。",
+  "outro": "风吹过树梢，她把目光收回，像是记不起什么。",
+  "choice_points": [
+    {
+      "prompt": "要不要聊聊今天天气？",
+      "options": ["闲聊", "沉默"]
+    }
+  ],
+  "fragment_hooks": [
+    {
+      "anchor": "长椅",
+      "emotion_tag": "nostalgic",
+      "base_score": 0.6,
+      "reveal_level": 1,
+      "trigger_hint": {"kind": "location", "value": "park"}
+    }
+  ]
+}

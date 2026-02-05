@@ -1,0 +1,14 @@
+{
+  "hook_id": "soft_hello",
+  "version": 1,
+  "kind": "soft",
+  "conditions": {},
+  "p0": 0.25,
+  "dp": 0.1,
+  "p_max": 0.7,
+  "cooldown_days": 1,
+  "cap_group": "daily",
+  "payload_template": {
+    "text": "她忽然轻声说：‘今天好像会发生点什么。’"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "event_id": "cafe_noon_01",
+  "version": 1,
+  "location": "cafe",
+  "time_slot": "noon",
+  "tags": ["social"],
+  "entry_conditions": {},
+  "base_weight": 1.0,
+  "intro": "咖啡香气让她略微放松，指尖轻扣杯沿。",
+  "outro": "她看着窗外的影子，像是在找一段被擦掉的句子。",
+  "choice_points": [
+    {
+      "prompt": "要点一杯拿铁吗？",
+      "options": ["点", "不点"]
+    }
+  ],
+  "fragment_hooks": [
+    {
+      "anchor": "咖啡",
+      "emotion_tag": "warmth",
+      "base_score": 0.5,
+      "reveal_level": 1,
+      "trigger_hint": {"kind": "location", "value": "cafe"}
+    }
+  ]
+}

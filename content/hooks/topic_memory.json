@@ -1,0 +1,15 @@
+{
+  "hook_id": "topic_memory",
+  "version": 1,
+  "kind": "topic",
+  "conditions": {},
+  "p0": 0.2,
+  "dp": 0.1,
+  "p_max": 0.6,
+  "cooldown_days": 2,
+  "cap_group": "daily",
+  "payload_template": {
+    "text": "她皱起眉：‘我是不是来过这里？’",
+    "options": ["也许吧", "我也不确定", "想慢慢想起"]
+  }
+}
